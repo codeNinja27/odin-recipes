@@ -25,13 +25,15 @@ body {
 }
 
 .desc {
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(109, 15, 4);
-    line-height: 200%;
+    line-height: 250%;
+    font-weight: bolder;
+    font-size: medium;
 }
 
 .subtitle {
     font-family: monospace;
     font-size: large;
-    color:rgb(68, 63, 63)
+    color:rgb(83, 78, 78)
 }

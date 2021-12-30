@@ -1,0 +1,38 @@
+img {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 70%;
+}
+
+body {
+    background-image: url("../images/bamboo.jpeg");
+    margin: auto;
+}
+
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(141, 66, 8);
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.title.two{
+    font-weight: normal;
+}
+
+ul {
+    text-align: center;
+}
+
+.items {
+    text-decoration: none;
+    color: rgb(226, 76, 84);
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: large;
+    font-weight: bold;
+}

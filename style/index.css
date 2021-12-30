@@ -1,4 +1,4 @@
-img {
+.img1 {
     height: auto;
     display: block;
     margin-left: auto;
@@ -9,7 +9,7 @@ img {
 
 body {
     background-image: url("../images/bamboo.jpeg");
-    margin: auto;
+    margin: 1%;
 }
 
 .title {
@@ -37,7 +37,7 @@ ul {
     font-weight: bold;
 }
 
-a:hover {
+.items:hover {
     background-color: yellow;
     font-size: larger;
   }

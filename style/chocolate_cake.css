@@ -7,6 +7,14 @@
     opacity: 65%;
 }
 
+.img1:hover {
+    border: 5px solid brown;
+	/* -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out; */
+}
+
 body {
     background-color: rgb(163, 125, 97);
     margin: 1%;
@@ -26,7 +34,7 @@ body {
 
 .desc {
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(109, 15, 4);
+    color:rgb(53, 50, 49);
     line-height: 250%;
     font-weight: bolder;
     font-size: medium;
@@ -35,5 +43,5 @@ body {
 .subtitle {
     font-family: monospace;
     font-size: large;
-    color:rgb(83, 80, 78)
+    color: rgb(109, 15, 4);
 }

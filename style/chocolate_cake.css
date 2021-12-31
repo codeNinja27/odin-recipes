@@ -7,14 +7,6 @@
     opacity: 65%;
 }
 
-.img1:hover {
-    border: 5px solid brown;
-	/* -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out; */
-}
-
 body {
     background-color: rgb(163, 125, 97);
     margin: 1%;
@@ -44,4 +36,17 @@ body {
     font-family: monospace;
     font-size: large;
     color: rgb(109, 15, 4);
+}
+
+/* Zoom In */
+.hover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    border: 3px solid brown;
 }
